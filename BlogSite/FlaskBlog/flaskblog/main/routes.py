@@ -41,4 +41,4 @@ def calendar():
 # annnouncement route
 @main.route('/announcements')
 def announcements():
-    return render_template('announcements.html', title='Calendar')
+    return render_template('announcements.html', title='Announcements')
