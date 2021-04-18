@@ -28,8 +28,7 @@ def about():
 @main.route('/latest_post')
 def latest_post():
     # getting all the posts 
-    posts = Post.query.all()
-    posts.reverse()
+    posts = Post.query.order_by(Post.date_posted.desc())
     # reversing the posts so as to get the latest at top
     return render_template('latest_post.html', title='Latest-post', posts = posts)
 
