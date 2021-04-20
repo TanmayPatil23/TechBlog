@@ -18,7 +18,7 @@
     
    -  **Run the program (First go to project directory and then run)**  
          - Syntax: ``` cd FlaskBlog ```
-                   ``` python3 run.py ```
+         - ``` python3 run.py ```
             
    -   **To stop the program Press** ```ctrl+c```
     
