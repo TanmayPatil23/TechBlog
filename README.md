@@ -11,7 +11,7 @@
           - Syntax: ``` virtualenv venv ```
          - **Activate virtual environment**
           - Syntax: ``` . venv/bin/activate ```
-     
+   
    -   **Install dependencies**
          - Syntax: ``` python3 setup.py ```
     
