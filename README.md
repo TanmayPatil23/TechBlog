@@ -14,6 +14,7 @@
    
    -   **Install dependencies**
          - Syntax: ``` python3 setup.py ```
+         - If this does not work for you try: ``` python3 -r requirements.txt ```
     
    -  **Run the program (First go to project directory and then run)**  
          - Syntax: ``` cd FlaskBlog ```
